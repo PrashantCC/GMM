@@ -11,3 +11,9 @@ public static void main(String[] args) {
     System.out.println("This is a print statement");
 }
 ```
+
+This is a block equation:
+
+$$
+\int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+$$
