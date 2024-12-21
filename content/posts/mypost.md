@@ -15,5 +15,9 @@ public static void main(String[] args) {
 This is a block equation:
 
 $$
-\int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+
+$$
+\log p_{\theta}(x) = \log(\int_{-\infty}_{+\infty}p_{\theta}(x, z) dz)
 $$
