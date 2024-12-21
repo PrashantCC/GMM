@@ -18,6 +18,15 @@ $$
 \int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
 
-$$
-\log p_{\theta}(x) = \log(\int_{-\infty}_{+\infty}p_{\theta}(x, z) dz)
-$$
+
+\begin{equation}
+\begin{aligned}
+\log p_{\theta}(x) &= \log \left( \int_{-\infty}^{\infty} p_{\theta}(x, z) \, dz \right) \\
+&= \log \left( \int_{-\infty}^{\infty} \frac{p_{\theta}(x, z)}{q_{\phi}(z|x)} \, dz \right)
+\end{aligned}
+\end{equation}
+
+
+
+
+
