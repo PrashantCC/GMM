@@ -5,3 +5,4 @@ theme = "contrast-hugo"
 
 [params]
   disqusShortname = "your-disqus-shortname"  # Add this line with your Disqus shortname
+  mathjax = true  # Enable MathJax for LaTeX rendering
