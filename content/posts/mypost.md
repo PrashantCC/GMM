@@ -8,7 +8,7 @@ This is some content
 
 ```java
 public static void main(String[] args) {
-    System.out.println("This is a print statement");
+    System.out.println("This is a print statement");    
 }
 ```
 
@@ -19,12 +19,12 @@ $$
 $$
 
 
-\begin{equation}
+$$
 \begin{aligned}
 \log p_{\theta}(x) &= \log \left( \int_{-\infty}^{\infty} p_{\theta}(x, z) \, dz \right) \\
 &= \log \left( \int_{-\infty}^{\infty} \frac{p_{\theta}(x, z)}{q_{\phi}(z|x)} \, dz \right)
 \end{aligned}
-\end{equation}
+$$
 
 
 
